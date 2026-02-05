@@ -10,12 +10,12 @@
         <router-link to="/stories" class="bg-white p-4 rounded shadow hover:bg-yellow-50">党员故事</router-link>
       </div>
 
-      <div class="bg-white p-4 rounded-lg shadow">
+      <!-- <div class="bg-white p-4 rounded-lg shadow">
         <p class="mb-2 text-gray-700">用微信扫二维码，随时学习党建内容 👇</p>
         <ClientOnly>
           <QRCode :text="currentUrl" :size="200" />
         </ClientOnly>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

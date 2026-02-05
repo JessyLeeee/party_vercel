@@ -1,6 +1,6 @@
 <template>
   <div class="p-4 max-w-3xl mx-auto">
-    <h1 class="text-2xl font-bold mb-4">学习金句</h1>
+    <h1 class="text-2xl font-bold mb-4">红黑榜</h1>
     <div v-for="quote in quotes" :key="quote.id" class="border-b py-4">
       <p class="text-lg italic">“{{ quote.content }}”</p>
       <p class="text-sm text-gray-600 mt-1">—— {{ quote.source }}</p>
